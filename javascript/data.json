@@ -1,0 +1,149 @@
+{
+    "page": [
+        {
+            "id_page": 1,
+            "nom page": "page test",
+            "contenu": "<h2>Test réussi</h2>"
+        },
+        {
+            "id_page": 2,
+            "nom page": "Conseil municipal",
+            "contenu": "<h2>Page du conseil municipal</h2>"
+        },
+        {
+            "id_page": 3,
+            "nom page": "Comptes rendus des conseils",
+            "contenu": "\n     \t<h2>Page des comptes rendus des conseils</h2>\t\t <link href=\"css/contenu.css\" rel=\"stylesheet\">\t"
+        },
+        {
+            "id_page": 4,
+            "nom page": "Inscription sur liste électorale",
+            "contenu": "\n     \t\n     \t\n\t \n     \n\t \n     \n\t \n     \n\t \n     \n\t \n     \n\t \n     \n\t \n     \n\t \n     \n\t \n     \n\t \n     <h2>Page Inscription</h2><hr id=\"null\"><div><p style=\"font-size: 17.6px;\">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem iure minima explicabo distinctio molestiae nemo facere eius. Est, perferendis impedit.&nbsp;<a href=\"http://virtualhost/Projet%20informatique/index.php?view=contenu#\">Lorem, ipsum dolor.</a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsa corrupti dicta sint debitis magnam voluptatem expedita illo harum nesciunt. Praesentium minus atque, ad dolore reprehenderit quo ut natus perspiciatis?</p><p style=\"font-size: 17.6px;\">Lorem ipsum dolor sit amet consectetur.<span style=\"font-weight: bolder;\">&nbsp;Lorem ipsum dolor sit amet.</span>&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo pariatur molestiae atque quos exercitationem corporis? Ad, asperiores nisi maxime quaerat vero iusto illo nesciunt ab libero earum, animi odit aut.</p></div> \t \t \t\t\t"
+        },
+        {
+            "id_page": 5,
+            "nom page": "Perte, renouvellement",
+            "contenu": "\n     \t<h2>Page Perte, renouvellement</h2><hr id=\"null\">cvvvcbvcbvbvcn"
+        },
+        {
+            "id_page": 6,
+            "nom page": "Carte d’identité",
+            "contenu": "<h2>Page Carte d’identité</h2>"
+        },
+        {
+            "id_page": 7,
+            "nom page": "Autorisations d’urbanisme",
+            "contenu": "\n     \t\n     \t<h2><br></h2>\t\t"
+        },
+        {
+            "id_page": 8,
+            "nom page": "Location de salle",
+            "contenu": "<h2>LOCATION Salle des fêtes de BOISDINGHEM<br></h2><p>(Salle de réception + cuisine (vaisselle pour environ 70 personnes, 2 réfrigérateurs, 1 congélateur, une gazinière, 1 lave-vaisselle professionnel, cafetières, chariot…)</p><br><img src=\"ressources/salle/salle1.jpg\"><img src=\"ressources/salle/salle2.jpg\"><img src=\"ressources/salle/salle3.jpg\"><p>Particuliers de la commune : 120€/jour + 50% par jour supplémentaire<br>Particuliers extérieurs à la commune : 180€/jour + 50% par jour supplémentaire<br>Le montant de la location est réclamé à la signature du contrat (en mairie aux heures d’ouverture) : chèque au nom de la Commune de Boisdinghem et attestation d’assurance obligatoire (attestation d'assurance de responsabilité civile mentionnant la date de la location). Tous les documents (chèques, attestation et contrat) doivent être au même nom et à la même adresse.<br><br>Un chèque de caution du même montant de la location sera exigé à la signature du contrat. <br>Celui-ci sera restitué au locataire après vérification après l’utilisation des locaux, les frais dus pour dégradation seront à régler avant la restitution du chèque de caution. <br><br>15 jours environ avant la location prendre contact avec la responsable de la salle pour fixer un rendez-vous pour l'inventaire (les coordonnées sont dans le contrat de location).</p>"
+        },
+        {
+            "id_page": 9,
+            "nom page": "Recensement",
+            "contenu": "<h2>Page Recensement</h2>"
+        },
+        {
+            "id_page": 10,
+            "nom page": "Accueil à la mairie",
+            "contenu": "\n\t \n     <h2>Page Accueil à la mairie</h2><hr id=\"null\"><div>Horaires de la mairie : 10h - 18h</div> \t"
+        },
+        {
+            "id_page": 11,
+            "nom page": "Vos élus",
+            "contenu": "\n\t \n     \n\t \n     \n\t \n     \n\t \n     <h2>Page Vos élus</h2><div><br></div> \t \t \t \t"
+        },
+        {
+            "id_page": 12,
+            "nom page": "Actvités du comité",
+            "contenu": "<h2>Actvités du comité</h2>"
+        },
+        {
+            "id_page": 13,
+            "nom page": "Présentation du RPI",
+            "contenu": "\n     \t\n     \t\n     \t<h2>Page Présentation du RPI</h2><div><br></div>\t\t\t"
+        },
+        {
+            "id_page": 14,
+            "nom page": "Classe maternelle",
+            "contenu": "\n     \t\n     \t\n     \t<h2>Page Classe maternelle</h2><div><br></div>\t\t\t"
+        },
+        {
+            "id_page": 15,
+            "nom page": "Association des parents d’élèves",
+            "contenu": "<h2>Page Association des parents d’élèves</h2>"
+        },
+        {
+            "id_page": 16,
+            "nom page": "Cantine et garderie",
+            "contenu": "<h2>Page Cantine et garderie</h2>"
+        },
+        {
+            "id_page": 17,
+            "nom page": "Comité des fêtes",
+            "contenu": "<h2>Page Comité des fêtes</h2>"
+        },
+        {
+            "id_page": 18,
+            "nom page": "Club de football",
+            "contenu": "<h2>Page Club de football</h2> <img src=\"ressources/photo/terrain.jpg\"> <img src=\"ressources/photo/terrain2.jpg\"> <img src=\"ressources/photo/terrain3.jpg\"><br><a href=\"https://www.fff.fr/competition/club/528666-boisdinghem-zudausques-mentque-nortbecourt-ent-sp/information.html\">Site de la FFF</a>"
+        },
+        {
+            "id_page": 19,
+            "nom page": "Société de chasse",
+            "contenu": "<h2>Page Société de chasse</h2>"
+        },
+        {
+            "id_page": 20,
+            "nom page": "Association du patrimoine",
+            "contenu": "\n     \t\n     \t\n     \t\n     \t\n     \t\n     \t\n     \t\n     \t\n     \t\n     \t\n     \t\n     \t\n     \t\n     \t\n     \t\n     \t\n     \t<h2>Page Association du patrimoine</h2><div><br></div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t <link href=\"css/contenu.css\" rel=\"stylesheet\">\t\t\t <link href=\"css/contenu.css\" rel=\"stylesheet\">\t"
+        },
+        {
+            "id_page": 21,
+            "nom page": "Eglise",
+            "contenu": "\n     \t\n     \t\n     \t\n     \t<h2>Page Eglise</h2><div><br></div>\t\t\t\t\t "
+        },
+        {
+            "id_page": 22,
+            "nom page": "Vie paroissiale",
+            "contenu": "<h2>Page Vie paroissiale</h2>"
+        },
+        {
+            "id_page": 23,
+            "nom page": "Philippe Tétart",
+            "contenu": "<h2>Page Philippe Tétart</h2><img src=\"ressources/entrepreneurs/PhillipeTetart.png\"><br><img src=\"ressources/entrepreneurs/PhillipeTetart2.png\">"
+        },
+        {
+            "id_page": 24,
+            "nom page": "Bati Nuisibles",
+            "contenu": "<h2>Page Bati Nuisibles</h2><img src=\"ressources/entrepreneurs/BATI nuisibles.jpg\">"
+        },
+        {
+            "id_page": 25,
+            "nom page": "La passion du bois",
+            "contenu": "<h2>Page La passion du bois</h2><img src=\"ressources/entrepreneurs/la passion du bois.jpg\"><br><img src=\"ressources/entrepreneurs/la passion du bois 2.jpg\">"
+        },
+        {
+            "id_page": 26,
+            "nom page": "De la garde Onirienne",
+            "contenu": "<h2>Page De la garde Onirienne</h2><img src=\"ressources/entrepreneurs/Flyer De la garde Onirienne.png\">"
+        },
+        {
+            "id_page": 27,
+            "nom page": "Menuiserie Dominique Viellard",
+            "contenu": "<h2>Page Menuiserie Dominique Viellard</h2>"
+        },
+        {
+            "id_page": 28,
+            "nom page": "PEINT TOUT",
+            "contenu": "<h2>Page PEINT TOUT</h2><span>Présentation de l'entreprise: </span><a href=\"ressources/entrepreneurs/Peint-tout.pdf\">Présentation pdf</a>"
+        },
+        {
+            "id_page": 29,
+            "nom page":"Audo'chauff", 
+            "contenu":"<h2>Page Audo'chauff</h2><img src=\"ressources/entrepreneurs/Audo'chauff.jpg\">"
+        }
+    ]
+}
