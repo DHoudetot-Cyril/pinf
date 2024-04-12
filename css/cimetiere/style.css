@@ -1,0 +1,33 @@
+img 
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        user-select: none;
+    }
+
+#sortie
+{
+    background-color: rgb(157, 221, 140);
+    text-align: center;
+    border: 2px solid black;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    display:none;
+}
+
+input
+{
+    padding: 5px;
+    border: 2px solid transparent;
+    background-color: transparent;
+}
+
+input:hover
+{
+    background-color:white;
+    opacity:0.25;
+    
+}

@@ -1,0 +1,497 @@
+
+header {
+     position: relative;
+     height: 720px;
+     background: url("../ressources/home/Parallax.JPG") no-repeat center center;
+     background-size: cover;
+     background-attachment: fixed;
+     overflow: hidden;
+}
+
+header .logo-header {
+     position: absolute;
+     top: 45%;
+     left: 0;
+     right: 0;
+     display: block;
+     width: 100%;
+     height: 100px;
+     margin-top: -190px;
+}
+
+.welcome-text{
+     width: 480px;
+     margin: 0 auto;
+     text-align: center;
+     margin-top: 250px;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 18px;
+}
+
+.welcome-text::before{
+     content: '"';
+     color: var(--v);
+     font-size: 20px;
+     font-weight: bold;
+}
+
+.welcome-text::after{
+     content: '"';
+     color: var(--v);
+     font-size: 20px;
+     font-weight: bold;
+}
+
+.nom-du-maire{
+     width: 480px;
+     margin: 20px auto 0;
+     padding-right: 20px;
+     text-align: right;
+     text-transform:capitalize;
+     font-size: 14px;
+     color: var(--blanc);
+}
+
+.nom-du-maire span{
+     padding: 5px 10px 5px 10px ;
+     background-color: var(--v);
+}
+
+/*PARALLAX HORIZONTAL*/
+.para-horiz{
+     width: 100%;
+     display: flex;
+     position: relative;
+     font-size: 80px;
+     font-weight: bold;
+}
+
+.para-horiz span{
+     margin: 0 50px;
+}
+
+
+.ligne{
+     height: 20px;
+     width: 100%;
+     background-color: var(--v);
+     margin-bottom: 100px;
+}
+
+/************* CHANGEMENTS MAIRE ****************/
+.ChangementsMaire{
+     margin: 0 0 100px 15%;
+     font-size: 20px;
+}
+
+.ChangementsMaire h3 {
+     padding: 0;
+     margin: 0;
+}
+
+.ChangementsMaire input{
+     border-radius: 10px;
+     height: 50px;
+}
+
+.ChangementsMaire .nomBtn{
+     margin-left: 15px;
+     font-size: 20px;
+}
+/* ********* ACTUALITES ********* */
+.actualités{
+     margin-left:15%;
+}
+
+.container-actu img {
+     width: 100%;
+}
+
+.container-actu {
+     position: relative;
+     height: 450px;
+     overflow: hidden;
+     cursor: grab;
+     margin: 50px 0 0 22%;
+}
+
+.actu-rect{
+     height: 450px;
+     width: 200px;
+     background-color: var(--v);
+     position: absolute;
+     margin-left: 15%;
+     border-radius: 50px 0 0 50px;
+     z-index: 100;
+
+}
+
+.cards-actu {
+     position: absolute;
+     top: 0;
+     left: 0;
+     display: grid;
+     grid-template-columns: repeat(11, 375px);
+     height: 450px;
+     grid-gap: 50px;
+     pointer-events: none;
+}
+
+.card-actu {
+     border: 1px solid #ccc; 
+     /* border-radius: 50px 0 50px 0; */
+     border-radius: 40px;
+     overflow: hidden;
+     position: relative;
+     left: 100px;
+}
+
+.card-actu:nth-child(11) {
+     border: 0px solid #ccc; 
+}
+
+.tempo{
+    width: 100px;
+    height: 20px;
+    background-color: var(--v);
+}
+
+.card__content-actu {
+     color: var(--noir);
+     padding: 1rem; 
+}
+
+.card__content-actu h1{
+     font-size: 25px;
+     text-transform: uppercase;
+     font-weight: bold;
+     padding: 0 0 10px 0;
+}
+
+.card__content-actu p{
+     padding: 0 0 20px 0;
+     font-style: italic;
+}
+
+.card__content-actu span{
+     text-transform: uppercase;
+}
+
+.toutes-actu{
+     width: 100%;
+     text-align: center;
+     font-size: 20px;
+     margin: 20px 0 200px 0;
+}
+
+
+/* ********* RESEAUX ********* */
+.reseaux{
+     width: 80%;
+     text-align: left;
+}
+.reseaux #res1{
+     position: relative;
+     left: 20%;
+     z-index: -10;
+}
+
+.reseaux #res2{
+     position: absolute;
+     margin-top: 79px;
+     left: 22%;
+     z-index: 11;
+}
+
+.div-reseaux{
+     z-index: 10;
+     width: 80%;
+     height: 700px;
+     overflow: hidden;
+     position: relative;  
+     border-radius: 50px;
+     margin: -30px auto 200px;
+     background-color: var(--blanc);
+     box-shadow: 3px 3px 10px 5px rgba(0,0,0,0.1);
+}
+
+.div-reseaux iframe{
+     position: relative;
+     z-index: 12;
+     margin: 50px 0 0 15%;
+     width: 500px;
+}
+
+.div-reseaux img{
+     width: 500px;
+     height: fit-content;
+     position: absolute;
+     z-index: 11;
+     margin: 100px 0 0 5.3%;
+}
+
+.div-reseaux .paper{
+     width: 1000px;
+     height: fit-content;
+     position: absolute;
+     z-index: 11;
+     margin: 200px 0 0 5.3%;
+}
+
+.txt-reseaux{
+     position: absolute;
+     z-index: 1500;
+     width: 35%;
+     top: 125px;
+     left: 50%;
+}
+
+.txt-reseaux h1{
+     font-size: 3rem;
+     margin-bottom: 5px;
+}
+
+.txt-reseaux p{
+     font-size: 25px;
+     margin-bottom: 15px;
+}
+
+.txt-reseaux button{
+     font-size: 20px;
+     padding:5px 20px;
+     border-radius: 10px;
+     background-color: var(--v);
+     color: var(--blanc);
+     border: 0;
+}
+
+#round{
+     position: absolute;
+     width: 30%;
+     left: 85%;
+     top: 2250px;
+     z-index: -10;
+}
+
+
+/* METEO */
+.meteo{
+     width: 100%;
+     text-align: center;
+}
+
+.meteo-jour{
+     width: 80%;
+     height: fit-content;
+     margin: 0 auto 200px;
+     padding: 10px;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.meteo-jour .left{
+     width: fit-content;
+     font-weight: bold;
+     float: left;
+     margin-left: 20px;
+}
+
+.meteo-jour img{
+     width: 70px;
+     height: 70px;
+     margin: -25px 10px 0 0 ;
+}
+
+.meteo-jour #temperature{
+     font-size: 50px;    
+}
+
+.meteo-jour .unite{
+     font-size: 30px;
+}
+
+.meteo-jour .right{
+     width: fit-content;
+     float: right;
+     text-align: right;
+     font-size: 25px;
+     margin-right: 20px;
+}
+
+.meteo-jour .graph-meteo{
+     width: 100%;
+     height: fit-content;
+}
+
+#graph1{
+     max-height: 550px;
+}
+
+
+#temps-txt{
+     text-transform: capitalize;
+}
+/* AGENDA */
+.agenda{
+     width: 100%;
+     margin-bottom: 200px;
+}
+
+.container-agenda{
+     width: 80%;
+     margin: 0 auto;
+}
+
+.agenda img{
+     float: right;
+}
+
+.agenda iframe{
+     margin-top: -20px;
+}
+
+
+/* Modication de l'agenda google */
+.view-cap, .view-container-border{
+     border-radius: 20px;
+     background-color: brown;
+}
+
+/* PARTENAIRES */
+.partenaires{
+     width: 100%;
+     margin-bottom: 200px;
+}
+
+.partenaires img{
+     width: 80%;
+     margin-left: 10%;
+}
+.partenaires > div > div > a > img 
+{
+     width:350px ;
+     height:200px ;
+     text-align:center;
+}
+
+.partenaires > div > div > h5
+{
+     text-align:center;
+     
+}
+
+.partenaires > div > div 
+{
+     display:inline-block;
+     margin: 2vw;
+     text-align: center;
+}
+.partenaires .container-part{
+     height: 700px;
+     width: 80%;
+     background-color: rgb(231, 231, 231);
+     margin: 0 auto;
+}
+
+
+
+/* DECOUVERTE */
+.decouverte img{
+     width: 100%;
+}
+
+.decouverte img{
+     margin: 0 auto -30px;
+     height: 150px;
+
+}
+
+.slider{
+     position: relative;
+     width: 100%;
+     height: 700px;
+     background-color: var(--v);
+}
+
+@media only screen and (max-width : 1600px)  
+{
+     .partenaires .container-part{
+          width: 150vw;
+          height:500px;
+     }
+
+
+     .partenaires > div > div > a > img 
+     {
+          width:40vw ;
+          height:10vh ;
+          min-width:150px;
+          max-width:300px;
+          max-height:100px;
+     }
+     .Picture 
+     {
+          width: 150vw;
+     }
+
+     .div-reseaux
+     {
+          width:150vw;
+          height: 100vh;
+         
+     }
+
+     .div-reseaux > iframe
+     {
+          margin-left:5%;
+     }
+
+     #res1
+     {
+          float:left;
+          
+     }
+     #res2
+     {
+          float:left;
+          margin-top: 1vh !important;
+          left: 22vw !important;
+          width: 40vw;
+     }
+
+     .txt-reseaux
+     {
+          display:none ;
+     }
+
+     header
+     {
+          width:150vw;
+     }
+
+     header .logo-header {
+          position: absolute;
+          display: block;
+          width: 20em;
+          margin-left: 10vw;
+          left:1vw; 
+      }
+
+      .nom-du-maire span {
+          top: 60vh;
+          left: 40%;
+          display: block;
+          position: absolute;
+      }
+      
+      .welcome-text {
+          position: absolute;
+          width:100vw;
+          margin: 0 auto;
+          text-align: center;
+          margin-top: 250px;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 1.5em;
+      }
+}

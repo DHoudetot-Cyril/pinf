@@ -1,0 +1,60 @@
+
+.titre{  
+    font-family: 'mark_blackblack';
+    color:black;
+    text-transform: uppercase;
+}
+@media only screen and (max-width : 1000px)  
+{
+
+    .maire #e1
+    {
+        width: 50vw;
+        height: 20vh ;
+        margin-left:30vw;
+    }
+    .elus  
+    {
+        width : 150vw;
+        height: 10%;
+    }
+
+    .elus > div
+    {
+        width : 90vw;
+       
+    }
+
+
+    .elus > div > div
+    {
+        display:contents;
+        text-align:center;
+        
+    }
+
+    .elus .txt {
+
+        font-size:1.2em;
+        border-bottom: 0px solid transparent !important;
+   }
+
+   .maire .txt .row {
+    margin: 5% 0 0 18vw !important;
+}
+
+   .txt > div 
+   {
+        margin-top : 5% !important;
+       margin-left: 18vw !important;
+
+   }
+
+    #e1 {
+        height: 20vh;
+        width: 50vw;
+        margin-left:25vw;
+    }
+
+
+}

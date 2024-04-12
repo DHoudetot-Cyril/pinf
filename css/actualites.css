@@ -1,0 +1,203 @@
+/* FILTRE */
+.Text-actu h1{
+     font-family: 'mark_blackblack';
+     color: var(--noir);
+     padding-bottom: 20px;
+     text-transform: uppercase;
+}
+.filtres{
+     display: none;
+}
+
+.Text-actu{
+     padding:0;
+}
+
+.name{  
+     margin-top: 75px;
+     font-family: 'mark_blackblack';
+     color: var(--noir);
+     padding-bottom: 20px;
+     text-transform: uppercase;
+}
+
+.filtres{
+     width: 100%;
+     height: 100px;
+     background-color: var(--bc);
+     margin-bottom: 50px;
+}
+
+.select select{
+     margin: 25px 0 0 15px;
+}
+
+.text .object{
+     margin: 25px 0;
+}
+
+.button button{
+     width: 100%;
+     height: 50px;
+     margin: 25px 0 0 -15px ; 
+} 
+
+.filtres .object{
+     height: 50px;
+}
+
+
+/* ACTUALITÉS */
+.actualites{
+     height: 250px;
+     margin-bottom: 25px;
+     background-color: var(--blanc);
+     box-shadow: 5px -5px 20px var(--gb);
+}
+
+.scroll h6
+{
+     overflow-y: auto;
+     scroll-behavior: smooth;
+     height: 100%;
+}
+/*
+.actualites .picture-actu{
+     height: 250px;
+     background-image: url('../ressources/actualites/connexion.jpg');
+}
+*/
+img {
+     max-width: 100%;
+     height: auto;
+}
+
+#p1{
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+}
+
+.actualites .txt{
+     color: var(--noir);
+     margin: 0;
+     padding: 0 0 0 50px;
+     border-bottom: 5px solid black;
+}
+
+.actualites .txt .row{
+     width: 90%;
+}
+
+.actualites .txt h5{
+     padding: 70px 12px 0 0;
+     font-weight: bold;
+     color: var(--r);
+}
+
+.actualites .txt h1{
+     font-family: 'mark_blackblack';
+     padding: 0;
+}
+
+.actualites .txt h6{
+     width: 90%;
+     padding: 5px 0 0;
+}
+
+.afficher{
+     margin-bottom: 25px;
+}
+
+.afficher button{
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 18px;
+}
+
+
+.actualites-hover{
+     display: none;
+     height: 250px;
+     margin-bottom: 25px;
+     background-color: #9CC191;
+     box-shadow: 5px -5px 20px var(--gb);
+}
+
+.actualites-hover .txt-hover{
+     padding: 0 0 0 50px;
+     color: var(--blanc);
+}
+
+.actualites-hover .txt-hover h1{
+     font-family: 'mark_blackblack';
+     color: var(--blanc);
+     padding: 50px 0 0 0 ;
+}
+
+.actualites-hover .txt-hover h6{
+     padding: 0;
+     font-size: 18px;
+}
+
+.bracket-div{
+     padding: 85px 0 0 100px;
+}
+
+.actualites-hover i{
+     font-size: 80px;
+     color: var(--blanc);
+}
+
+.ActuTitre h1{
+     font-size: 1.5em;
+}
+button
+{
+     background-color:#9CC191 ;
+     border:1px solid transparent ;
+     border-radius: 5px;
+     width: 200px;
+     height:50px;
+     margin-bottom:2vh;   
+}
+input[type=submit] 
+{
+
+     background-color:#9CC191 ;
+     border:1px solid transparent ;
+     border-radius: 5px;
+     width: 100px;
+     height:50px;
+     margin-bottom:2vh;
+}
+
+select
+{
+     width: 50vw;
+     height:40px;
+     font-size: 1em;
+}
+
+@media only screen and (max-width : 1600px)  
+{
+     .txt > div > h1
+     {
+          font-size:1em;
+     }
+     
+  
+     h1
+     {
+          font-size: 1em;
+     }
+
+     .scroll h6
+     {
+          font-size: 0.5em;
+          height:100px;
+          overflow-y: auto;
+          scroll-behavior: smooth;
+     }
+ 
+}

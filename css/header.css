@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Raleway:wght@500&display=swap');
+
+@font-face {/*REGULAR*/
+     font-family: 'mark-regularregular';
+     src: url('../fonts/Regular/mark-regular-webfont.woff2') format('woff2'),
+          url('../fonts/Regular/mark-regular-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {/*GRAS*/
+     font-family: 'mark_blackblack';
+     src: url('../fonts/Black/mark-black-webfont.woff2') format('woff2'),
+          url('../fonts/Black/mark-black-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+.c{
+     --noir: #000000;
+     --coolBlack: #b41b1b;
+     --n: rgb(53, 53, 53);
+     --gh:rgb(110, 110, 110);
+     --gm: rgb(148, 148, 148);
+     --g: rgb(211, 211, 211);
+     --gb:rgb(220, 220, 220);
+     --gc:#F7F4F1;
+     --blanc: #ffffff;
+     --transparent:rgba(0, 0, 0, 0);
+
+     --r: #dd2929;
+     --low-red:#ff9f9f;
+     --v  : #9CC191;
+     --bf:#0b3164;
+     --b:#0047A3;
+     --bc:rgb(27, 107, 211);
+     --btc:rgb(64, 145, 252);
+     --SombreBackGround : #202229;
+     
+     /* Connexion */
+     --para1: #000000;
+     --para2 : #ffffff;
+     --itempara3 : rgba(255, 255, 255, 0.2);
+     --itempara2 : rgba(255, 255, 255, 0.2);
+     --itempara1 : rgba(255, 255, 255, 0.2);
+     --glass: rgba(255, 255, 255, 0.2);
+     --glass2: rgba(255, 255, 255, 0.5);
+     --shadow: rgba(0,0,0,0.2);
+}
+
+*, ::before, ::after {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     cursor: pointer;
+     
+}
+
+body{
+     font-family: 'Raleway', sans-serif;
+     background-color: var(--blanc);
+     color: var(--noir);
+     overflow-x: hidden;
+}
+
+a{
+     text-decoration: none;
+     color: black;
+}
+
+.header li,a{
+     text-decoration: none;
+     color: var(--noir);
+}
+
+.header{
+     position: fixed;
+     top: 0;
+     width: 100%;
+     height: 80px;
+     z-index: 1000;
+     padding: 25px 5%;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     font-size: 1vw ;
+     font-family: 'Raleway', sans-serif; 
+     transition: background 0.4s;
+}
+
+.cheat{
+     width: 100%;
+     height: 80px;
+     background-color: white;
+     position: fixed;
+     z-index: 100;
+     box-shadow:0px 1px 10px 0px rgba(0,0,0,0.1);
+}
+
+.logo{
+     cursor: pointer;
+     margin-right: auto;
+     padding-top: 10px;
+}
+
+.logo img{
+     height: 35px;
+}
+
+.nav_links{
+     list-style: none;
+}
+
+.nav_links li{
+     display: inline-block;
+     padding: 0 20px;
+}
+
+.nav_links li span{
+     padding: 40px 0 15px;
+     transition: border 0.2s;
+     text-transform: uppercase;
+}
+
+.cim{
+     position: absolute;
+     height: 35px;
+     margin-top: -25px;
+}
+
+.nav_links.active{
+     transform: translateX(0);
+}
+
+
+
+/* ************************** SOUS MENU ************************** */
+.sous-menu{
+     position: fixed;
+     top: 80px;
+     z-index: 999;
+     width: 100%;
+     height: fit-content;
+     display: none;
+     justify-content: center;
+     background-color: rgb(255, 255, 255);
+}
+
+.sous-menu .divSM{
+     width: calc(100% - 30%);
+     padding-left: 10%;
+     padding-bottom: 20px;
+}
+
+.sous-menu .sm{
+     float: left;
+     width:33.33%;
+}
+
+.sous-menu .sm p{
+     font-size: 18px;
+     text-transform: uppercase;
+     font-weight: bold;
+     transition: all 0.2s;
+     transition: underline 2s;
+     margin: 30px auto 10px;
+}
+
+.divSM div:nth-child(4),.divSM div:nth-child(5), .divSM div:nth-child(6) {
+     margin: -30px auto 0px;
+}
+
+.sous-menu .sm p:hover{
+     color: var(--v );
+     text-decoration: underline;
+}
+
+.sous-menu .sm p img{
+     margin: -1px 0 0 5px;
+}
+#imgSM1, #imgSM2, #imgSM3{
+     transition: transform 0.3s;
+}
+
+.sous-menu .sm .valueSm h6 a:hover{ 
+     color: var(--v);
+     text-decoration: underline;
+}
+
+.valueSm h6:first-child{
+     margin-top: -5px;
+}
+
+.valueSm h6:last-child{
+     margin-bottom: 20px;
+}
+
+#idVSM1, #idVSM2, #idVSM3{
+     display: none;
+}
+
+#c1sm, #c2sm ,#c3sm, #c4sm, #c5sm , #c6sm , #c7sm {
+     display: none;
+}
+
+@media only screen and (max-width : 1400px)  {
+
+
+     .nav_links{
+          position: fixed;
+          top:80px;
+          left: 0px;
+          width: 200px;
+          height :100vh;
+          background-color: white;
+          box-shadow:0px 1px 10px 0px rgba(0,0,0,0.1);
+          display: none;
+          transform: translateX(-100%);
+          transition: all 0.3s ease-in-out;
+     }
+
+         
+          .cim
+          {
+               top:10vh;
+          }    
+     
+          .nav_links > li:nth-child(1) {
+               position: absolute;
+               top:20vh ;
+               font-size:1em;
+
+          }
+
+          .nav_links > li:nth-child(2) {
+               position: absolute;
+             
+               top:20vh ;
+          }
+
+          .nav_links > li:nth-child(2) {
+               position: absolute;
+              
+               top:30vh ;
+          }
+
+          .nav_links > li:nth-child(3) {
+               position: absolute;
+               top:40vh ;
+          }
+
+          .nav_links > li:nth-child(4) {
+               position: absolute;
+               top:50vh ;
+          }
+
+          .nav_links > li:nth-child(5) {
+               position: absolute;
+               top:60vh ;
+          }
+
+          .nav_links > li:nth-child(6) {
+               position: absolute;
+               top:70vh ;
+          }
+
+          .nav_links > li:nth-child(7) {
+               position: absolute;
+               top:80vh ;
+          }
+
+          
+     .hamburger{
+          position: absolute;
+          bottom: 1vh;
+          left : 90vw;
+          width: 40px;
+          height: 70px;
+          display: flex;
+          align-items: center;
+          cursor: pointer; 
+     }
+
+     .hamburger span, .hamburger span::before , .hamburger span::after{
+          content: "";
+          display: block;
+          position: relative;  
+          width: 100%;
+          height: 3px;
+          background: #9CC191;
+     
+         
+     }
+     .hamburger span::before{
+          top: 12px;
+     }
+     .hamburger span::after{
+          top: -14px;
+     }
+     
+     .divSM{
+          display: none;
+     }
+
+
+     .sous-menu{
+          position: fixed;
+          top: 80px;
+          left:200px;
+          z-index: 999;
+          width: 100%;
+          height: fit-content;
+          display: none;
+          justify-content: left;
+          background-color: rgb(255, 255, 255);
+          margin: 0px;
+     }
+     .sm p{
+          font-size: 0.8em !important ;
+          padding: 2px 
+     
+     }
+     .sous-menu h6{
+          font-size: 0.8em;
+     }
+
+}
